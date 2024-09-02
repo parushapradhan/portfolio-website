@@ -15,10 +15,15 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: { 
-        primary: '#35fad5'
+        // primary: '#35fad5',
+        primary:'#1a1a3d'
       },
       fontFamily: {
         amatic: ['Amatic', 'sans-serif'],
+      },
+      boxShadow: {
+        'button': '10px 10px 0 #1a1a3d',
+        'button-hover': '5px 5px 0 #1a1a3d',
       },
     },
   },
