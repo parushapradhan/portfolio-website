@@ -1,0 +1,41 @@
+/* Container for the scroll line */
+.line-container {
+    transform: translateY(-50%); /* Center the line vertically */
+    width: 5px;
+    height: 25vh;
+  }
+  
+  /* The scroll line itself */
+  .scroll-line {
+    width: 100%;
+    background: #35fad5; /* Gradient color */
+    transition: height 0.1s ease-out; /* Smooth transition for height */
+  }
+  
+
+  .container{
+    max-width: 1224px;
+    width: 90%;
+    margin: auto;
+  }
+
+  .photo-gallery{
+    display:flex;
+    gap:20px;
+  }
+
+  .column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .photo{
+    object-fit: cover;
+    border-radius: 4px;
+  }
+
+  @media(max-width:768px){
+    .photo-gallery{
+      flex-direction: column;
+    }
+  }
